@@ -17,11 +17,18 @@
         }
     </style>
     -->
-    <link rel="stylesheet" href="./css/estilos.css"/>
+    <link rel="stylesheet" href="./css/estilos.css" /> <!-- PRIORIDAD 3 -->
+    <style>
+        h1{ /* PRIORIDAD 2 */
+            color: lightcoral;
+        }
+    </style>
 </head>
-
-<body>
-    <h1>Universidad HTML</h1>
+<!--------------------------------------------------------------《 ESTILOS 》------------------------------------------------------------------------------------>
+<!-------------------------- ▀ Las hojas de estilo se aplican en cascada de un elemento padre a un elemento hijo ------------------->
+<!-------------------------- ▀ Prioridad de estilos: elemento, en head, hoja externa ------------------->
+<body style="background-color: honeydew;">
+    <h1 style="color: lightslategray; background-color: lavender;">Universidad HTML</h1> <!-- PRIORIDAD 1 -->
     <p>Bienvenido a CSS</p>
     <p>Saludos!</p>
     <a href="contenido.html">Ir a contenido</a>
