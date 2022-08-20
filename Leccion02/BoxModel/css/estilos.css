@@ -1,0 +1,45 @@
+h1 {
+    color: blue;
+}
+
+p {
+    color: white;
+    background-color: crimson;
+    /*--------------------------------------------------------------《 PADDING 》------------------------------------------------------------------------------------*/
+    /*-------------------------- ▀ Espacio hacia adentro para todos lados -------------------*/
+    padding: 15px;
+
+    /*--------------------------------------------------------------《 BORDER 》------------------------------------------------------------------------------------*/
+    /*-------------------------- ▀ Borde que está envolviendo al texto -------------------*/
+    border: 10px solid powderblue;
+
+    /*--------------------------------------------------------------《 MARGIN 》------------------------------------------------------------------------------------*/
+    /*-------------------------- ▀ Agrega un espacio de los elementos que rodean al elemento -------------------*/
+
+    /*------ ▀ Afecta a todos los lados -------------------*/
+    /*margin: 50px;*/
+
+    /*------ ▀ Cada lado por separado -------------------*/
+    /*margin-top: 40px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;*/
+
+    /*------ ▀ Superior, derecha, inferior, izquierda -------------------*/
+    /*margin: 40px 10px 20px 10px;*/
+
+    /*------ ▀ Superior, (izquierdo, derecho), inferior -------------------*/
+    /*margin: 40px 10px 20px;*/
+
+    /*------ ▀ (Superior,inferior),(izquierdo, derecho) -------------------*/
+    /* margin: 40px 10px;*/
+
+    /*------ ▀ CENTRAR UN ELEMENTO -------------------*/
+    margin: auto 50px;
+    
+    /*--------------------------------------------------------------《 ALINEAR TEXTO 》------------------------------------------------------------------------------------*/
+    text-align: center;
+
+    /*------ ▀ IMPORTANTE!!! LO DE MARGIN APLICA PATA PADDING Y BORDER TAMBIEN -------------------*/
+
+}
