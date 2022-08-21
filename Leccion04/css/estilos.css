@@ -12,12 +12,34 @@ table, th, td {
     padding: 5px;
 }
 
+caption{
+    color: #e63946;
+    font-family: 'Trocchi', serif;
+    font-size: 45px;
+    /*--------------------- ▀ Ancho de la linea del texto ------------------*/
+    line-height: 70px;
+}
+
+th{
+    color: #f1faee;
+    background-color: #1d3557;
+}
+
+/*--------------------- ▀ EVEN: Representa las filas pares de una tabla HTML: 2, 4, 6, etc. ------------------*/
+tr:nth-child(even){
+    background-color: #f1faee;
+}
+
+/*--------------------- ▀ ODD: Representa las filas impares de una tabla HTML: 1, 3, 5, etc. ------------------*/
+tr:nth-child(odd){
+    background-color: #a8dadc;
+}
 /*
 td{
     text-align: center;
 }
 
- th{
+th{
     text-align: left;
 } */
 
