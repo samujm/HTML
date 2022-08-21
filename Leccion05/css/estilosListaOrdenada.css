@@ -1,0 +1,19 @@
+ol{
+    list-style: none;
+    counter-reset: contador; /* 2.- Se reinicia cada que se utiliza una lista*/
+}
+
+ol li{
+    counter-increment: contador; /* 3.- Se INCREMENTA en 1*/
+}
+
+/*-------------------------- ▀ before: agregar un texto ANTES de que se visualice el elemento de list-item -------------------*/
+ol li::before{
+    content: 'Curso ' counter(contador) ') '; /* 1.- Se utiliza cuando se crea la lista, cada que se utiliza la palabra curso, (concatenando)*/
+    color: #ff6f00;
+}
+
+/*-------------------------- ▀ after: agregar un texto DESPUES de que se visualice el elemento de list-item -------------------*/
+ol li::after{
+    content: '.';
+}
