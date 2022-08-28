@@ -1,8 +1,9 @@
 /* Aplica a todos los elementos */
-*{
+/* *{
     margin: 0;
     padding: 0;
-}
+} */
+
 /* Identificador css */
 #titulo_principal{
     color: #f72585;
