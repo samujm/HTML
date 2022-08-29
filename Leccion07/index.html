@@ -46,6 +46,24 @@
         <label for="edad">Edad:</label><br />
         <input type="number" id="edad" name="edad" step="any"/><br />
 
+        <!--------------------------------------------------------------《 RADIOBUTTONS 》------------------------------------------------------------------------------------>
+        <!-------------------------- ▀ Para seleccionar solo una de las dos opciones el valor de NAME DEBE SER EL MISMO ------------------->
+        <!-------------------------- ▀ Value es lo que se envia al servidor ------------------->
+        <label>Género</label><br />
+        <input type="radio" id="femenino" name="genero" value="femenino"/>
+        <label for="femenino">Femenino</label><br />
+        <input type="radio" id="masculino" name="genero" value="masculino"/>
+        <label for="masculino">Masculino</label><br />
+
+        <!--------------------------------------------------------------《 CHECKBOX 》------------------------------------------------------------------------------------>
+        <!-------------------------- ▀ Se pueden seleccionar varias opciones ------------------->
+        <!-------------------------- ▀ El valor NAME debe ser igual ------------------->
+        <label>Género de Música favorita</label><br />
+        <input type="checkbox" id="clasica" name="musica" value="clasica"/>
+        <label for="clasica">Clásica</label><br />
+        <input type="checkbox" id="jazz" name="musica" value="jazz"/>
+        <label for="jazz">Jazz</label><br />
+
         <!-------------------------- ▀ Boton para enviar el formulario ------------------->
         <input type="submit" value="Enviar" />
         <!-------------------------- ▀ Boton para enviar el formulario SIN VALIDAR con formnovalidate------------------->
