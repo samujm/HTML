@@ -13,7 +13,13 @@
     <h1>Formularios en HTML</h1>
     <!-------------------------- ▀ novalidate: aunque se requieran los campos no se solicitan con esta opcion ------------------->
     <!-- <form novalidate> -->
-    <form>
+
+    <!--------------------------------------------------------------《 METODO GET Y POST 》------------------------------------------------------------------------------------>
+    <!-------------------------- ▀ GET: Si no se define por default es por get (url), la información se envia como parte de la url, pero solo si no es sensible ------------------->
+    <!-- <form method="GET"> -->
+
+    <!-------------------------- ▀ POST: Se envia por http hacia el servidor para que no se visualice la información ------------------->
+    <form method="POST">
         <!-------------------------- ▀ For el id para relacionar la etiqueta con el input ------------------->
         <label for="nombre">Nombre:</label><br />
         <!-------------------------- ▀ Recomendable siempre asignar el id ------------------->
@@ -25,6 +31,9 @@
 
         <label for="apellido">Apellido:</label><br />
         <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido" required="true" /><br />
+
+        <label for="password">Password:</label><br />
+        <input type="password" id="password" name="password" required="true" /><br />
 
         <!-------------------------- ▀ Boton para enviar el formulario ------------------->
         <input type="submit" value="Enviar" />
