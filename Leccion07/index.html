@@ -32,10 +32,13 @@
             <!-------------------------- ▀ Mejora visual ------------------->
             <legend>Datos Persona</legend>
 
-                        <!--------------------------------------------------------------《 READONLY 》------------------------------------------------------------------------------------>
+            <!--------------------------------------------------------------《 READONLY 》------------------------------------------------------------------------------------>
             <!-------------------------- ▀ Valor que se llena automaticamente por el servidor y el usuario no tiene que cambiar, SOLO LECTURA ------------------->
             <label for="idPersona">Id Persona:</label><br />
             <input type="text" id="idPersona" name="idPersona" readonly="true" value="100"/><br />
+
+            <!--------------------------------------------------------------《 PARAMETRO OCULTO 》------------------------------------------------------------------------------------>
+            <input type="hidden" id="sistema" name="sistema" value="SAP"/>
 
             <!-------------------------- ▀ For el id para relacionar la etiqueta con el input ------------------->
             <label for="nombre">Nombre:</label><br />
