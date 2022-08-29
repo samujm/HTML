@@ -23,7 +23,8 @@
     <!-------------------------- ▀ action="" es el componente del lado del servidor que va a procesar la información ------------------->
     <!-------------------------- ▀ target="_target" Abrir la respuesta en otra ventana ------------------->
     <!-------------------------- ▀ autocomplete="off" Evitar el autocompletado del navegador ------------------->
-    <form action="mi_servidor" target="_target" autocomplete="off">
+    <!-- <form action="mi_servidor" target="_target" autocomplete="off"> -->
+    <form action="mi_servidor">
         <!--------------------------------------------------------------《 FIELDSET 》------------------------------------------------------------------------------------>
         <!-------------------------- ▀ Agregar un marco al formulario, cierra antes del form ------------------->
         <fieldset>
@@ -96,6 +97,9 @@
             <input type="submit" value="Enviar" />
             <!-------------------------- ▀ Boton para enviar el formulario SIN VALIDAR con formnovalidate------------------->
             <input type="submit" formnovalidate value="Enviar sin validar" />
+
+            <!-------------------------- ▀ Reiniciar los valores de un formulario------------------->
+            <input type="reset" value="Restablecer"/>
         </fieldset>
     </form>
 </body>
