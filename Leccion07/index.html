@@ -19,7 +19,8 @@
     <!-- <form method="GET"> -->
 
     <!-------------------------- ▀ POST: Se envia por http hacia el servidor para que no se visualice la información ------------------->
-    <form method="POST">
+    <!-- <form method="POST"> -->
+    <form>
         <!-------------------------- ▀ For el id para relacionar la etiqueta con el input ------------------->
         <label for="nombre">Nombre:</label><br />
         <!-------------------------- ▀ Recomendable siempre asignar el id ------------------->
@@ -32,14 +33,24 @@
         <label for="apellido">Apellido:</label><br />
         <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido" required="true" /><br />
 
-        <label for="password">Password:</label><br />
-        <input type="password" id="password" name="password" required="true" /><br />
+        <!--------------------------------------------------------------《 INPUT PASSWORD 》------------------------------------------------------------------------------------>
+        <!-- <label for="password">Password:</label><br />
+        <input type="password" id="password" name="password" required="true" /><br /> -->
+
+        <!--------------------------------------------------------------《 INPUT EMAIL 》------------------------------------------------------------------------------------>
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email"/><br />
+
+        <!--------------------------------------------------------------《 INPUT NUMERICO 》------------------------------------------------------------------------------------>
+        <!-------------------------- ▀ step="any" para aceptar cualquier valor numerico ------------------->
+        <label for="edad">Edad:</label><br />
+        <input type="number" id="edad" name="edad" step="any"/><br />
 
         <!-------------------------- ▀ Boton para enviar el formulario ------------------->
         <input type="submit" value="Enviar" />
         <!-------------------------- ▀ Boton para enviar el formulario SIN VALIDAR con formnovalidate------------------->
         <input type="submit" formnovalidate value="Enviar sin validar" />
-    </form>
+        </formZ>
 </body>
 
 </html>
