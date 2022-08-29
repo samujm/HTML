@@ -64,6 +64,24 @@
         <input type="checkbox" id="jazz" name="musica" value="jazz"/>
         <label for="jazz">Jazz</label><br />
 
+        <!--------------------------------------------------------------《 SELECT 》------------------------------------------------------------------------------------>
+        <!-------------------------- ▀ for, name y id mismo valor ------------------->
+        <!-------------------------- ▀ selected="true" para mostrar ese elemento primero ------------------->
+        <!-------------------------- ▀ multiple="true" seleccionar varias opciones ------------------->
+        <label for="autos">Marca Auto favorita:</label><br/>
+        <!-- <select name="autos" id="autos" multiple="true"> -->
+        <select name="autos" id="autos">
+            <option value="volvo">Volvo</option>
+            <option value="bmw">BMW</option>
+            <option value="audi" selected="true">Audi</option>
+        </select>
+        <br/>
+
+        <!--------------------------------------------------------------《 TEXTAREA 》------------------------------------------------------------------------------------>
+        <!-------------------------- ▀ Lo que se agrege dentro aparece ------------------->    
+        <label for="comentario">Comentario:</label><br/>
+        <textarea name="comentario" id="comentario" cols="30" rows="2">Este es mi comentario</textarea><br/>
+
         <!-------------------------- ▀ Boton para enviar el formulario ------------------->
         <input type="submit" value="Enviar" />
         <!-------------------------- ▀ Boton para enviar el formulario SIN VALIDAR con formnovalidate------------------->
